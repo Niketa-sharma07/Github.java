@@ -14,13 +14,12 @@ public class ContainerWater {
         }
         else{
             rp--;
-        }
-    }
-     return maxWater;
+        }         
+    }     return maxWater;
 
     }
     public static void main(String args[]){
-        ArrayList<Integer> height = new ArrayList<>();
+        ArrayList<Integer> height = new ArrayList<>();                                                                                                      
         height.add(1);
         height.add(8);
         height.add(6);
@@ -35,3 +34,4 @@ public class ContainerWater {
     }
     
 }
+ 
